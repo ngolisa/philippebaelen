@@ -6,122 +6,128 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 </head>
 <body>
-  <div class="text-center">
+  <div class="container">
+    <div class="text-center">
 
-    <h1>Hello, I'm Philippe😎</h1>
-    <img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-1/p320x320/12791072_1023975867640434_1463621206471358941_n.jpg?_nc_cat=108&_nc_ohc=aW1BTrytngwAQnGO8m2mJeVqeKFhAjCTDcrO9S6CvijMIczsrS87i64Ww&_nc_ht=scontent-cdg2-1.xx&oh=4bacbe041e9b7327744d3c7eeff0e84b&oe=5E7AD2C5" width="100px" alt="Philippe Baelen">
-    <p>
-
-
-
+      <h1>Hello, I'm Philippe😎</h1>
+      <img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-1/p320x320/12791072_1023975867640434_1463621206471358941_n.jpg?_nc_cat=108&_nc_ohc=aW1BTrytngwAQnGO8m2mJeVqeKFhAjCTDcrO9S6CvijMIczsrS87i64Ww&_nc_ht=scontent-cdg2-1.xx&oh=4bacbe041e9b7327744d3c7eeff0e84b&oe=5E7AD2C5" width="100px" alt="Philippe Baelen">
+      <p>
 
 
-    </p>
-
-    <h2>Follow me</h2>
 
 
-    <a href="https://www.facebook.com/philippe.baelen.7" target="_blank">
-      <i class="fab fa-facebook-square"></i>
-    </a>
+
+      </p>
+
+      <h2>Follow me</h2>
 
 
-    <a href="https://www.linkedin.com/in/philippe-baelen/?originalSubdomain=fr">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
-
-    <a href="https://www.instagram.com/philippe_bln/?hl=fr" target="_blank">
-      <i class="fab fa-instagram"></i>
-    </a>
+      <a href="https://www.facebook.com/philippe.baelen.7" target="_blank">
+        <i class="fab fa-facebook-square"></i>
+      </a>
 
 
+      <a href="https://www.linkedin.com/in/philippe-baelen/?originalSubdomain=fr">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      <a href="https://www.instagram.com/philippe_bln/?hl=fr" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+
+    </div>
+
+
+    <hr color="white">
+    <!-- You race HTML code here -->
+    <table class="racer_table">
+      <tr id="player1_race">
+        <td class="active"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><img src="data:image/png;base64,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" alt="" width="60" height="60"></td>
+
+      </tr>
+      <tr id="player2_race">
+        <td class="active"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          <img src="data:image/png;base64,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" alt="" width="60" height="60">
+        </td>
+
+      </tr>
+    </table>
+    <hr color="white">
+
+    <h1>DREAM BIG. WORK HARD. START SMALL.</h1>
+    <h1>💡</h1>
+
+    <div class="snake">
+      <canvas width="400" height="400" id="game"></canvas>
+    </div>
   </div>
-
-
-  <hr color="white">
-  <!-- You race HTML code here -->
-  <table class="racer_table">
-    <tr id="player1_race">
-      <td class="active"></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><img src="data:image/png;base64,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" alt="" width="60" height="60"></td>
-
-    </tr>
-    <tr id="player2_race">
-      <td class="active"></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>
-        <img src="data:image/png;base64,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" alt="" width="60" height="60">
-      </td>
-
-    </tr>
-  </table>
-  <hr color="white">
-  <h1>DREAM BIG. WORK HARD. START SMALL.</h1>
-  <h1>💡</h1>
-
 </body>
 </html>
 
@@ -156,5 +162,131 @@
   };
 
   moveForward();
+
+  var canvas = document.getElementById('game');
+  var context = canvas.getContext('2d');
+  var grid = 16;
+  var count = 0;
+
+  var snake = {
+    x: 160,
+    y: 160,
+
+  // snake velocity. moves one grid length every frame in either the x or y direction
+  dx: grid,
+  dy: 0,
+
+  // keep track of all grids the snake body occupies
+  cells: [],
+
+  // length of the snake. grows when eating an apple
+  maxCells: 4
+};
+var apple = {
+  x: 320,
+  y: 320
+};
+// get random whole numbers in a specific range
+// @see https://stackoverflow.com/a/1527820/2124254
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+// game loop
+function loop() {
+  requestAnimationFrame(loop);
+  // slow game loop to 15 fps instead of 60 (60/15 = 4)
+  if (++count < 4) {
+    return;
+  }
+  count = 0;
+  context.clearRect(0,0,canvas.width,canvas.height);
+  // move snake by it's velocity
+  snake.x += snake.dx;
+  snake.y += snake.dy;
+  // wrap snake position horizontally on edge of screen
+  if (snake.x < 0) {
+    snake.x = canvas.width - grid;
+  }
+  else if (snake.x >= canvas.width) {
+    snake.x = 0;
+  }
+
+  // wrap snake position vertically on edge of screen
+  if (snake.y < 0) {
+    snake.y = canvas.height - grid;
+  }
+  else if (snake.y >= canvas.height) {
+    snake.y = 0;
+  }
+  // keep track of where snake has been. front of the array is always the head
+  snake.cells.unshift({x: snake.x, y: snake.y});
+  // remove cells as we move away from them
+  if (snake.cells.length > snake.maxCells) {
+    snake.cells.pop();
+  }
+  // draw apple
+  context.fillStyle = 'red';
+  context.fillRect(apple.x, apple.y, grid-1, grid-1);
+  // draw snake one cell at a time
+  context.fillStyle = 'green';
+  snake.cells.forEach(function(cell, index) {
+
+    // drawing 1 px smaller than the grid creates a grid effect in the snake body so you can see how long it is
+    context.fillRect(cell.x, cell.y, grid-1, grid-1);
+    // snake ate apple
+    if (cell.x === apple.x && cell.y === apple.y) {
+      snake.maxCells++;
+      // canvas is 400x400 which is 25x25 grids
+      apple.x = getRandomInt(0, 25) * grid;
+      apple.y = getRandomInt(0, 25) * grid;
+    }
+    // check collision with all cells after this one (modified bubble sort)
+    for (var i = index + 1; i < snake.cells.length; i++) {
+
+      // snake occupies same space as a body part. reset game
+      if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
+        snake.x = 160;
+        snake.y = 160;
+        snake.cells = [];
+        snake.maxCells = 4;
+        snake.dx = grid;
+        snake.dy = 0;
+        apple.x = getRandomInt(0, 25) * grid;
+        apple.y = getRandomInt(0, 25) * grid;
+      }
+    }
+  });
+}
+// listen to keyboard events to move the snake
+document.addEventListener('keydown', function(e) {
+  // prevent snake from backtracking on itself by checking that it's
+  // not already moving on the same axis (pressing left while moving
+  // left won't do anything, and pressing right while moving left
+  // shouldn't let you collide with your own body)
+
+  // left arrow key
+  if (e.which === 37 && snake.dx === 0) {
+    snake.dx = -grid;
+    snake.dy = 0;
+  }
+  // up arrow key
+  else if (e.which === 38 && snake.dy === 0) {
+    snake.dy = -grid;
+    snake.dx = 0;
+  }
+  // right arrow key
+  else if (e.which === 39 && snake.dx === 0) {
+    snake.dx = grid;
+    snake.dy = 0;
+  }
+  // down arrow key
+  else if (e.which === 40 && snake.dy === 0) {
+    snake.dy = grid;
+    snake.dx = 0;
+  }
+});
+// start the game
+requestAnimationFrame(loop);
+
 
 </script>
